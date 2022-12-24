@@ -1,0 +1,9 @@
+--- PRISTUPNI PARAMETRI ---
+Marko
+Ka7XDZCo)SoohP&tbl
+
+--- KORACI ---
+
+U folderu \wp-content\plugins se nalazi moj custom plugin Movies u kojem je definisana logika za kreiranje prikaza custom post type-a
+U folderu \wp-content\themes\twentytwentyone se nalazi custom template za prikaz custom post type movies u single-movies.php
+U single-movies.php pokušao sam da prikažem meta informacije preko <?php echo get_post_meta(get_the_id(), 'movie_name', true) ?> ali nije radilo
